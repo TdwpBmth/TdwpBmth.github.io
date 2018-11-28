@@ -1,0 +1,237 @@
+@import url('fonts.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Titillium-Web", sans-serif;
+}
+
+header {
+    background: #FEAE23;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.name a {
+    float: left;
+    width: 30%;
+}
+
+.name img {
+    width: 100%;
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav li a:hover {
+    background: #2E1E30;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.session {
+    background: #2E1E30;
+}
+
+.banner {
+    clear: both;
+    background-image: url(img/cover.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 5%;
+}
+
+.motto {
+    color: #2E1E30;
+    text-align: center;
+}
+
+.tiny {
+    color: #000;
+    font-family: "Titillium-Web-Bold", sans-serif;
+    font-size: 20px;
+}
+
+.big {
+    color: #000;
+    text-shadow: 3px 3px 80px;
+    font-family: "Titillium-Web-Black", sans-serif;
+    font-size: 80px;
+}
+
+.info {
+    width: 70%;
+    text-align: left;
+    color: #000;
+    float: left;
+    padding: 0 50px;
+    font-family: "Titillium-Web-SemiBold", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 10px;
+}
+
+.playstore {
+    width: 30%;
+    color: #fff;
+    float: right;
+}
+
+.playstore p {
+    color: #000;
+    text-align: right;
+    display: inline-block;
+    width: 70%;
+    font-family: "Titillium-Web-SemiBold";
+    font-size: 20px;
+}
+
+.badge img {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.description {
+    background: #F5F2F4;
+    width: 100%;
+    padding: 3% 30%;
+}
+
+.parral img {
+    width: 100%;
+    border: 5px solid #000;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.description h1{
+    text-align: center;
+    margin: 0 0 3% 0;
+    color: #2E1E30;
+    font-family: "Titillium-Web-SemiBold", sans-serif;
+    font-size: 50px;
+}
+
+.description p {
+    text-align:justify;
+}
+
+.parral {
+    width: 100%;
+    padding: 0;
+}
+
+footer {
+    background: #FEAE23;
+    width: 100%;
+    overflow: hidden;
+    padding: 0% 0% 0% 0%;
+    color: #fff;
+}
+
+.greetings {
+    width: 30%;
+    float: left;
+    margin: 3% 0;
+}
+
+.logo {
+    width: 25%;
+    margin: 10% 10% 0% 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.greetings p {
+    text-align: justify;
+    margin: 0 10%;
+}
+
+.support {
+    float: left;
+    width: 30%;
+    margin: 3% 0;
+}
+
+.support article {
+    text-align: center;
+}
+
+.support ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.support ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.social {
+    float: left;
+    width: 30%;
+    margin: 3% 0;
+}
+
+.social article {
+    text-align: center;
+}
+
+.fb {
+    display: block;
+    margin: 0 45%;
+    width: 30%;
+}
+
+.fb img {
+    width: 30%;
+}
+
+.yt {
+    display: block;
+    margin: 0 45%;
+    width: 30%;
+}
+
+.yt img{
+    width: 30%;
+}
+
+.credits {
+    background: #6d4a0d;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #2E1E30;
+}
+
+@media (max-width: 480px) {
+    
+}
