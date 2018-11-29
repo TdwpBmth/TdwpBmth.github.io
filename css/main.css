@@ -9,6 +9,7 @@
 
 body {
     font-family: PT_Sans-Web, sans-serif;
+    background: #f2f2f2;
 }
 
 header {
@@ -213,4 +214,63 @@ footer {
 .yti {
     font-size: 50px;
     margin: 10px;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    font-family: PT_Sans-Web-Bold, sans-serif;
+    font-size: 80px;
+}
+
+.login {
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    padding: 20px;
+    width: 50%;
+    background: #FFC107;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    font-family: PT_Sans-Web, sans-serif;
+    font-size: 20px;
+    border: solid 3px #FFA000;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: left;
+    width: 90%;
+    padding: 3%;
+    margin: 10px;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border: solid 4px #795548;
+}
+
+.login input[type="submit"] {
+    font-family: PT_Sans-Web-Bold, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #795548;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.login a:link {
+    color: #795548;
+}
+
+.login a:visited {
+    color: #795548;
+}
+
+.login a:active {
+    opacity: 0.5;
 }
