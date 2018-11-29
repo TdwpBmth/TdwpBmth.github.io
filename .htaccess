@@ -1,2 +1,2 @@
 DirectoryIndex index.php
-AddType application/x-httpd-php .htm .html
+AddType prestolunch.me/x-httpd-php .htm .html
