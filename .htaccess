@@ -1,1 +1,2 @@
-AddType / x-httpd-php .php .htm .html AddHandler x-httpd-php .php .htm .html
+DirectoryIndex index.php
+AddType application/x-httpd-php .htm .html
