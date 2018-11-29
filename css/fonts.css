@@ -1,24 +1,19 @@
 @font-face {
-    font-family: "Titillium-Web"; 
-    src: url('fonts/TitilliumWeb-Regular.ttf');
+    font-family: "PT_Sans-Web"; 
+    src: url('fonts/PT_Sans-Web-Regular.ttf');
 }
 
 @font-face {
-    font-family: "Titillium-Web-Black"; 
-    src: url('fonts/TitilliumWeb-Black.ttf');
+    font-family: "PT_Sans-Web-Bold"; 
+    src: url('fonts/PT_Sans-Web-Bold.ttf');
 }
 
 @font-face {
-    font-family: "Titillium-Web-Bold"; 
-    src: url('fonts/TitilliumWeb-Bold.ttf');
+    font-family: "PT_Sans-Web-Italic"; 
+    src: url('fonts/PT_Sans-Web-Italic.ttf');
 }
 
 @font-face {
-    font-family: "Titillium-Web-SemiBold"; 
-    src: url('fonts/TitilliumWeb-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: "Titillium-Web-Light"; 
-    src: url('fonts/TitilliumWeb-Light.ttf');
+    font-family: "PT_Sans-Web-BoldItalic"; 
+    src: url('fonts/PT_Sans-Web-BoldItalic.ttf');
 }

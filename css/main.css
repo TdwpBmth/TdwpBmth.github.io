@@ -8,29 +8,32 @@
 }
 
 body {
-    font-family: "Titillium-Web", sans-serif;
+    font-family: PT_Sans-Web, sans-serif;
 }
 
 header {
-    background: #FEAE23;
+    background: #FFC107;
     width: 100%;
     overflow: hidden;
-    padding: 10px;
+    padding: 0px;
 }
 
 .name a {
     float: left;
-    width: 30%;
+    width: 8%;
+    margin: 0px 8%;
 }
 
 .name img {
     width: 100%;
+    padding: 0px;
 }
 
 .nav li {
     display: inline-block;
     text-align: center;
     float: right;
+    height: 100%;
 }
 
 .nav li a {
@@ -38,10 +41,12 @@ header {
     text-decoration: none;
     display: inline-block;
     padding: 20px;
+    -webkit-transition:background 1s ease;
+    transition:background 1s ease;
 }
 
 .nav li a:hover {
-    background: #2E1E30;
+    background: #795548;
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -49,7 +54,7 @@ header {
 }
 
 .session {
-    background: #2E1E30;
+    background: #795548;
 }
 
 .banner {
@@ -59,57 +64,39 @@ header {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    padding: 5%;
+    padding: 6% 15%;;
 }
 
 .motto {
     color: #2E1E30;
     text-align: center;
+    width: auto;
 }
 
 .tiny {
-    color: #000;
-    font-family: "Titillium-Web-Bold", sans-serif;
+    color: #fff;
+    font-family: PT_Sans-Web-Bold, sans-serif;
     font-size: 20px;
 }
 
 .big {
-    color: #000;
-    text-shadow: 3px 3px 80px;
-    font-family: "Titillium-Web-Black", sans-serif;
+    color: #fff;
+    font-family: PT_Sans-Web-Bold, sans-serif;
     font-size: 80px;
 }
 
 .info {
-    width: 70%;
-    text-align: left;
-    color: #000;
-    float: left;
-    padding: 0 50px;
-    font-family: "Titillium-Web-SemiBold", sans-serif;
-    font-size: 30px;
-    text-shadow: 3px 3px 10px;
-}
-
-.playstore {
-    width: 30%;
+    width: auto;
+    text-align: center;
     color: #fff;
+    float: left;
+    font-family: PT_Sans-Web-Bold, sans-serif;
+    font-size: 30px;
+}
+
+.playstorei img{
+    width: 20%;
     float: right;
-}
-
-.playstore p {
-    color: #000;
-    text-align: right;
-    display: inline-block;
-    width: 70%;
-    font-family: "Titillium-Web-SemiBold";
-    font-size: 20px;
-}
-
-.badge img {
-    width: 100%;
-    display: inline-block;
-    margin: 0px 10px;
 }
 
 .description {
@@ -129,7 +116,7 @@ header {
     text-align: center;
     margin: 0 0 3% 0;
     color: #2E1E30;
-    font-family: "Titillium-Web-SemiBold", sans-serif;
+    font-family: PT_Sans-Web-Bold, sans-serif;
     font-size: 50px;
 }
 
@@ -230,8 +217,4 @@ footer {
 .credits a {
     text-decoration: none;
     color: #2E1E30;
-}
-
-@media (max-width: 480px) {
-    
 }
