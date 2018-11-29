@@ -133,19 +133,18 @@ footer {
     background: #FEAE23;
     width: 100%;
     overflow: hidden;
-    padding: 0% 0% 0% 0%;
+    padding: 0;
     color: #fff;
 }
 
 .greetings {
-    width: 30%;
+    width: 33%;
     float: left;
-    margin: 3% 0;
+    padding: 10px;
 }
 
 .logo {
-    width: 25%;
-    margin: 10% 10% 0% 10%;
+    width: 20%;
 }
 
 .logo img {
@@ -154,17 +153,17 @@ footer {
 
 .greetings p {
     text-align: justify;
-    margin: 0 10%;
 }
 
 .support {
     float: left;
-    width: 30%;
-    margin: 3% 0;
+    width: 33%;
+    padding: 1%;
 }
 
 .support article {
     text-align: center;
+    font-family: PT_Sans-Web-Bold, sans-serif;
 }
 
 .support ul li a {
@@ -175,46 +174,43 @@ footer {
 .support ul li {
     list-style: none;
     text-align: center;
+    margin: 8px;
 }
 
 .social {
     float: left;
-    width: 30%;
-    margin: 3% 0;
+    width: 33%;
+    padding: 1%
 }
 
 .social article {
     text-align: center;
+    font-family: PT_Sans-Web-Bold, sans-serif;
 }
 
-.fb {
-    display: block;
-    margin: 0 45%;
-    width: 30%;
+.brands {
+    text-align: center;
+    width: auto;
 }
 
-.fb img {
-    width: 30%;
+.brands a:link {
+    color: #fff;
 }
 
-.yt {
-    display: block;
-    margin: 0 45%;
-    width: 30%;
+.brands a:visited {
+    color: #fff;
 }
 
-.yt img{
-    width: 30%;
+.brands a:active {
+    color: #fff;
 }
 
-.credits {
-    background: #6d4a0d;
-    width: 100%;
-    padding: 5px;
-    overflow: hidden;
+.fbi {
+    font-size: 50px;
+    margin: 10px;
 }
 
-.credits a {
-    text-decoration: none;
-    color: #2E1E30;
+.yti {
+    font-size: 50px;
+    margin: 10px;
 }
