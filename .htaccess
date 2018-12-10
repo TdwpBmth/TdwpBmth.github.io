@@ -1,2 +1,4 @@
-DirectoryIndex index.php
-AddType prestolunch.me/x-httpd-php .htm .html
+<FilesMatch "\.(inc|sql)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
